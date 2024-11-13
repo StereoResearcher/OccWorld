@@ -29,7 +29,22 @@ Given past 3D occupancy observations, our self-supervised OccWorld trained can f
 ## Installation
 1. Create conda environment with python version 3.8.0
 
+```code
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
+```
+
 2. Install all the packages in environment.yaml
+
+```code
+apt-get install libfreetype6-dev
+apt-get install libgif-dev
+apt-get install libglib2.0-dev
+apt-get install libgmp-dev
+apt-get install lame
+apt-get install liblcms2-dev
+apt-get install libncurses5-dev libncursesw5-dev
+pip install -r requirements.txt
+```
 
 3. Anything about the installation of mmdetection3d, please refer to [mmdetection3d](https://mmdetection3d.readthedocs.io/en/latest/getting_started.html#installation)
 
